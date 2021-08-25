@@ -116,7 +116,6 @@ class MoreLikeThisMixin(object):
                         like={
                             '_id': "{}".format(id_),
                             '_index': "{}".format(self.index),
-                            '_type': "{}".format(self.mapping)
                         },
                         **kwargs
                     )
@@ -127,7 +126,6 @@ class MoreLikeThisMixin(object):
                         like={
                             '_id': "{}".format(id_),
                             '_index': "{}".format(self.index),
-                            '_type': "{}".format(self.mapping)
                         },
                         **kwargs
                     )
